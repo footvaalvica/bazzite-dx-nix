@@ -42,6 +42,18 @@ jobs:
           - name: bazzite-dx-nvidia-gnome-nix
             image_name: bazzite-dx-nvidia-gnome-nix
             base_image: ghcr.io/ublue-os/bazzite-dx-nvidia-gnome:stable
+          - name: bazzite-deck-nix
+            image_name: bazzite-deck-nix
+            base_image: ghcr.io/ublue-os/bazzite-deck:stable
+          - name: bazzite-deck-gnome-nix
+            image_name: bazzite-deck-gnome-nix
+            base_image: ghcr.io/ublue-os/bazzite-deck-gnome:stable
+          - name: bazzite-deck-nvidia-nix
+            image_name: bazzite-deck-nvidia-nix
+            base_image: ghcr.io/ublue-os/bazzite-deck-nvidia:stable
+          - name: bazzite-deck-nvidia-gnome-nix
+            image_name: bazzite-deck-nvidia-gnome-nix
+            base_image: ghcr.io/ublue-os/bazzite-deck-nvidia-gnome:stable
     env:
       IMAGE_NAME: ${{ matrix.variant.image_name }}
       BASE_IMAGE: ${{ matrix.variant.base_image }}
