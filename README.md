@@ -1,3 +1,5 @@
+# ARCHIVED BECAUSE I DON'T USE BAZZITE ANYMORE
+
 # bazzite-dx-nix &nbsp; [![build-ublue](https://github.com/footvaalvica/bazzite-dx-nix/actions/workflows/build.yml/badge.svg)](https://github.com/footvaalvica/bazzite-dx-nix/actions/workflows/build.yml)
 
 This is a very barebones image just to add support for Nix to Bazzite, via creating an empty and persistent `/nix` directory.
